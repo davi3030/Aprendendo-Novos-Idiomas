@@ -1,5 +1,5 @@
 # Aprendendo Novos Idiomas: Fale Com O Mundo 	
-Saiba porque e como a ferrari é a maior potencia nos carros esportivos.
+Saiba como se comunicar fora de seu país.
 ## links indicados
 ### Planejamento 
 [cetic](https://cetic.br/)
