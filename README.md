@@ -3,6 +3,7 @@ Saiba como se comunicar fora de seu país.
 ## links indicados
 ### Planejamento 
 [cetic](https://cetic.br/)
+
 [Figma](https://www.figma.com/)
 ### Wireframe
 [draw](https://app.diagrams.net/)
