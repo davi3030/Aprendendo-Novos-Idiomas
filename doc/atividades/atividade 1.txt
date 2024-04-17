@@ -1,0 +1,41 @@
+Material de apoio da UC:
+HTML5 e CSS3
+https://github.com/professorjosedeassis/html5css3
+
+Atividade 1:
+
+Escolher um tema para o desenvolvimento de um projeto de um site:
+  - Definir objetivos conforme imagem em anexo
+  - Responder duas perguntas:
+    Objetivos do site
+    Necessidades do visitante
+  - Não podem haver 2 ou mais temas idênticos
+  - Tema de robótica (professor)
+
+Criar um repositório GitHub
+  - Iniciar a personalização do README.md
+  - Criar uma pasta DOC
+    - Briefing   
+
+
+______________________________________________
+Git: Clonar o repositório
+git config --global user.name "seu nome"
+git config --global user.email "seu email"
+git clone link_do_repositorio
+
+VSCode: Instalar extensões
+- Live Server
+- Bracket Pair Color
+- Ativar o auto save e wrap(quebra de linha no editor)
+
+Abrir um git bash dentro da pasta do projeto
+git status
+git add .
+git commit -m "upload file"
+git push (envio para o repositório)
+
+
+
+
+

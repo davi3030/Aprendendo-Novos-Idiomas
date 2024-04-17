@@ -1,0 +1,8 @@
+Desenvolvimento das páginas de conteúdo e contato
+(Finalização do desenvolvimento do site)
+
+- Criar wireframes (páginas de conteúdo e contato.
+- Criar as páginas que estão faltando
+  - Conteúdo
+  - Contato
+  - Outras (de acordo com a estrutura do seu projeto)

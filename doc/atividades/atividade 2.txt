@@ -1,0 +1,25 @@
+Template (cabeçalho, rodapé e cartão)
+
+1) Selecionar as seguinte imagens (formatos png ou jpg):
+- favicon (ícone de favoritos)
+- logotipo
+- ícones de redes sociais
+  (mínimo 2 e máximo 5)
+  (48x48px ou 64x64px
+- 1 cartão "site em construção"
+- ícone seta para o topo (48px x 48px)
+
+2) Wireframe (cabeçalho/rodapé e cartão)
+
+3) Estrutura do site
+
+4) Menu: navegação: Todas as páginas devem estar linkadas e acessíveis
+
+5) <head>
+   <title>
+   <meta name="description">
+"Modificar o título e texto para cada página do site"
+
+6) Validação do código (todas as páginas html e CSS)
+
+7) GitHub

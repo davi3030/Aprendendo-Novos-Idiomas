@@ -1,0 +1,13 @@
+- Documentação e publicação do projeto
+
+1) Verificar os comentários, eliminando comentários usados para fins didáticos
+
+2) Identar todo código (alinhar, remover excesso de espaços etc)
+
+3) Validar individualmente todas as páginas html do site
+
+4) Validar o código CSS e obter o selo(colar no README.md)
+
+5) Fazer testes nos diversos dispositivos (obrigatório testar no smartphone real)
+
+6) Revisar o repositório GitHub

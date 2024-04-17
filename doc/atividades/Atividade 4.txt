@@ -1,0 +1,14 @@
+Páginas sobre e apoio(se disponível)
+
+- Wireframes
+- Desenvolvimento das páginas
+- Validdação W3C
+- README.md --- Adicionar QRCode -> site
+
+//Adicionar o QRCode do site hospedado
+1) Obter o link
+2) Google Chrome -> 3 pontinhos -> salvar e compartilha -> gerar QrCode
+3) Fazer o download e inserir a imagem no repositório (pasta doc)
+4) No README.md
+## Acessar site
+![QrCode](https:\\link_do_seu_site)
