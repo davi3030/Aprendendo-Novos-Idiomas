@@ -1,0 +1,221 @@
+/*
+     Folha de estilo one page
+     @autor Davi sousa
+*/
+/* css Reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Layout */
+.Container{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+}
+
+.Botao{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #c00000;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+/* Topo do site */
+#Topo {
+    /* obrigatorio usar posiçao fixa para utilizar right ou bottom */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/*   Smarthphone Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+/* Cabeçalho */
+header  {
+    height: 60px;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+}
+
+#check{
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#check:checked ~ ul{
+  right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Destaque */
+main{
+    height: 70vh;
+    background: url(img/terra..jpeg);
+    background-size: cover;
+    background-position: center;
+    color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+main h1{
+    font-size: 2.5em;
+}
+main h2{
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
+}
+
+#Sobre{
+    padding: 50px 0px ;
+    background: url(img/terrasobre.png);
+    background-size: cover;
+    
+}
+#destaquesobre{
+    display: none;
+}
+#textosobre{
+    color: #232925;
+}
+.topicosSobre{
+    margin-top: 20px;
+}
+.topicosSobre img{
+    margin-right: 10px;
+}
+/* conteudo */
+#conteudo{
+    padding: 50px 0px;
+}
+
+/*   Smarthphone Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media (min-width: 572px) {
+      
+    /* Layout */
+    .Container{
+        max-width: 540px;
+    }
+    /* Destaque */
+    main h1, main h2{
+        text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+}
+
+/*   Tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media (min-width: 768px) {
+    body{
+        background-color: #706138;
+    }
+    /* Layout */
+    .Container{
+        max-width: 720px;
+    }
+    main {
+        height: 45vh;
+    }        
+    main h1{
+        font-size: 5.5em;
+    }
+    main h2{
+        font-size: 2em;
+    }
+}
+/*   Tablet Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media (min-width: 992px) {
+    body{
+        background-color: #706138;
+    }   
+    /* Layout */
+    .Container{
+        max-width: 960px;
+    }
+    /* Destaque */
+    main{
+        height: 70vh;
+    }
+}
+/*   pc >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media (min-width: 1200px) {
+    body{
+        background-color: #706138;
+    }
+    /* Layout */
+    .Container{
+        max-width: 1140px;
+    }  
+    /* cabeçalho */
+    header {
+        height: 120px;
+    }
+
+    #logo img{
+        width: 189px;
+        height: 189px;
+        margin-top: 30px;
+    }
+
+    label{
+        display: none;
+    }
+
+    nav ul{
+        position: static;
+        height: auto;
+        background-color: transparent;
+    }
+    nav ul li{
+        float: left;
+        border: 0;
+    }
+    /* Sobre */
+    #destaquesobre{
+        display: inline;
+    }
+    
+}
